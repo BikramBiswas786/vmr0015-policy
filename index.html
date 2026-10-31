@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VMR0015 policy package</title>
+  <meta name="description" content="Hedera Guardian policy package for Verra methodology VMR0015. Pull request 6164 is open. Not a registered project." />
+  <style>
+    :root { --ink:#161410; --paper:#f4f0e6; --sheet:#fffdf8; --rule:#d9d2c3; --quiet:#5c564c; --seal:#9a4030; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--ink); color: var(--ink); font: 16px/1.45 "Segoe UI", sans-serif; }
+    main { max-width: 40rem; margin: 0 auto; min-height: 100vh; background: var(--paper); padding: 1.5rem 1.25rem 3rem; }
+    .kicker { letter-spacing: .14em; text-transform: uppercase; color: var(--seal); font-size: .75rem; font-weight: 650; }
+    h1 { font-family: Georgia, serif; font-weight: 500; font-size: 2.1rem; line-height: 1.05; margin: .4rem 0 0; }
+    h2 { font-family: Georgia, serif; font-weight: 500; font-size: 1.45rem; margin: 2rem 0 .6rem; }
+    p, li { margin: .4rem 0; }
+    .quiet { color: var(--quiet); }
+    .status { border: 1px solid var(--rule); background: var(--sheet); padding: .85rem 1rem; margin-top: 1rem; }
+    table { width: 100%; border-collapse: collapse; background: var(--sheet); border: 1px solid var(--rule); font-size: .95rem; }
+    th, td { text-align: left; padding: .7rem .8rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+    th { color: var(--quiet); font-weight: 550; width: 9rem; }
+    tr:last-child td, tr:last-child th { border-bottom: 0; }
+    a.btn { display: flex; align-items: center; justify-content: center; min-height: 3rem; margin-top: .5rem; padding: .6rem .8rem; text-decoration: none; font-weight: 650; }
+    a.ink { background: var(--ink); color: var(--paper); }
+    a.line { border: 1px solid var(--rule); color: var(--ink); background: var(--sheet); }
+    button { min-height: 3rem; width: 100%; margin-top: .5rem; background: var(--ink); color: var(--paper); border: 0; font: inherit; font-weight: 650; cursor: pointer; }
+    .hash { word-break: break-all; font-size: .8rem; color: var(--quiet); }
+    ol { padding-left: 1.2rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="kicker">For Verra and the Guardian reviewers</p>
+    <h1>VMR0015 Safe Drinking Water</h1>
+    <p>Policy package v3.1, with a v3.2 backup. Prepared by Bikram Biswas.</p>
+    <div class="status">
+      <strong>Pull request 6164 is open. It is not merged.</strong>
+      <p class="quiet">This is not a registered VCS project. No credits have been issued. The mint figure below is the Guardian dry-run floor, not a Verra serial.</p>
+    </div>
+    <h2>What you are looking at</h2>
+    <table>
+      <tr><th>Methodology</th><td>VMR0015 v1.0, under AMS-III.AV v09.0</td></tr>
+      <tr><th>Where it sits</th><td><a href="https://github.com/hashgraph/guardian/pull/6164">github.com/hashgraph/guardian/pull/6164</a></td></tr>
+      <tr><th>Guardian test</th><td>3.7.1-rc, 21 October 2026. Both files reported 100 percent.</td></tr>
+      <tr><th>Ex-ante</th><td>1,666.620262475 t CO2e. Sample only.</td></tr>
+      <tr><th>Ex-post</th><td>1,556.947181413 t CO2e. Sample only.</td></tr>
+      <tr><th>Mint floor</th><td>1,556. Not issued.</td></tr>
+    </table>
+    <h2>Files to import</h2>
+    <p>v5.0A if a project starts before 1 January 2027. v5.0B on or after that date. Import v3.1. Use v3.2 only if you want the extra fNRB input checks.</p>
+    <a class="btn ink" href="https://raw.githubusercontent.com/BikramBiswas786/guardian/8c9bcd5e0f3d183eb4a9a2ffb6ba9f67b3373aeb/Methodology%20Library/DLT%20Earth%20Methodology%20Bounty%20Program/Emission%20Reductions%20from%20Safe%20Drinking%20Water%20Supply/policy/VMR0015_Safe_Drinking_Water_dMRV_v3.1_VCS-v5.0A_with_integrity_test.policy">Download v3.1 A</a>
+    <p class="hash">sha256 5d22de23fe65b9028f552b533035c8eb2aa349bf73fd9903543ec27d01eaa2f2</p>
+    <a class="btn line" href="https://raw.githubusercontent.com/BikramBiswas786/guardian/8c9bcd5e0f3d183eb4a9a2ffb6ba9f67b3373aeb/Methodology%20Library/DLT%20Earth%20Methodology%20Bounty%20Program/Emission%20Reductions%20from%20Safe%20Drinking%20Water%20Supply/policy/VMR0015_Safe_Drinking_Water_dMRV_v3.1_VCS-v5.0B_with_integrity_test.policy">Download v3.1 B</a>
+    <p class="hash">sha256 18b50f669d62ca7df9bae418641938fa7290c2d64cd6245de7393277adbaaa88</p>
+    <a class="btn line" href="https://raw.githubusercontent.com/BikramBiswas786/guardian/8c9bcd5e0f3d183eb4a9a2ffb6ba9f67b3373aeb/Methodology%20Library/DLT%20Earth%20Methodology%20Bounty%20Program/Emission%20Reductions%20from%20Safe%20Drinking%20Water%20Supply/policy/v3.2_fNRB_input_checks/VMR0015_Safe_Drinking_Water_dMRV_v3.2_VCS-v5.0A_with_integrity_test.policy">Backup v3.2 A</a>
+    <p class="hash">sha256 20d5c8b04bfb9e5bc84b3318a831ec78107313c72ed4b7bd8a70d58a7311c5f9</p>
+    <a class="btn line" href="https://raw.githubusercontent.com/BikramBiswas786/guardian/8c9bcd5e0f3d183eb4a9a2ffb6ba9f67b3373aeb/Methodology%20Library/DLT%20Earth%20Methodology%20Bounty%20Program/Emission%20Reductions%20from%20Safe%20Drinking%20Water%20Supply/policy/v3.2_fNRB_input_checks/VMR0015_Safe_Drinking_Water_dMRV_v3.2_VCS-v5.0B_with_integrity_test.policy">Backup v3.2 B</a>
+    <p class="hash">sha256 086d5b1bfccc7b6cb776ea0fcad04a500f93ad18215858b990f5aa686b9f1f0c</p>
+    <h2>For the Guardian team</h2>
+    <ol>
+      <li>Open the <a href="https://www.climission.com/mgs">Managed Guardian Service</a>.</li>
+      <li>Manage Policies, then import v3.1 A or v3.1 B.</li>
+      <li>Start a dry run. Run the integrity test. The file already carries a 100 percent result.</li>
+    </ol>
+    <a class="btn line" href="https://www.climission.com/mgs">Open Guardian</a>
+    <h2>Note you can send</h2>
+    <p id="note" class="quiet">Please review the VMR0015 Safe Drinking Water Guardian policy package at this page. Pull request 6164 is open and not merged. The files are v3.1 A and B, with a v3.2 backup. The dry-run on Guardian 3.7.1-rc reported 100 percent. Ex-ante 1,666.620262475 t, ex-post 1,556.947181413 t, mint floor 1,556. These figures are a sample. No project is registered and no credits have been issued. Bikram Biswas.</p>
+    <button type="button" id="copy">Copy the note</button>
+  </main>
+  <script>
+    document.getElementById("copy").addEventListener("click", async function () {
+      const text = document.getElementById("note").innerText;
+      try { await navigator.clipboard.writeText(text); this.textContent = "Copied"; }
+      catch (e) { this.textContent = "Select the note and copy it"; }
+    });
+  </script>
+</body>
+</html>
